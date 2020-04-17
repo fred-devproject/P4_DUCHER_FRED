@@ -29,18 +29,18 @@
 
 	<!-- opt/ remplacement favicon.jpg // favicon.ico -->
     <link rel="icon" type="image/ico" href="./favicon.ico" />
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+    	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style-min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="./js/blocs-min.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	
 
 	<!--  ajout titre de page  -->
     <title>La Chouette agence Contact</title>
@@ -52,9 +52,7 @@
 	<div class="page-container">
 		<header>	
 			<!-- bloc-0 -->
-			<div class="bloc bgc-white l-bloc " id="bloc-0">
-				<div class="container bloc-sm">
-
+				<div class="container bloc-sm bloc bgc-white l-bloc" id="bloc-0">
 					<nav class="navbar row">
 						<div class="navbar-header">
 							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
@@ -75,7 +73,6 @@
 						</div>
 					</nav>
 				</div>
-			</div>
 			<!-- bloc-0 END -->
 
 			<!-- bloc-6 -->
@@ -101,8 +98,10 @@
 			<div class="bloc bgc-white l-bloc" id="bloc-7">
 				<div class="container bloc-lg">
 					<div class="row">
-						<div class="col-sm-6">
-							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<!-- opt/ modification <div> par <aside>-->
+						<aside class="col-sm-6">
+							<!-- opt/ modification de l'attribut data-... -->
+							<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
 									<label>
 										Nom
@@ -130,11 +129,10 @@
 									Envoyer
 								</button>
 							</form>
-						</div>
-						<div class="col-sm-6">
-							<p>
-								contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-							</p>
+						</aside>
+						<!-- opt/ modification <p> par <address> -->
+						<div class="col-sm-6 map-responsive">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555756!2d4.827978615721709!3d45.7695278210386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1587109231503!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 						</div>
 					</div>
 				</div>
