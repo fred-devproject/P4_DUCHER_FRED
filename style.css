@@ -1,3 +1,19 @@
+/* Ajout de classes CSS en rapport avec les modification sur les pages HTML */
+
+.text-bloc {
+    font-size: 1.5em;
+    text-justify: auto;
+}
+
+
+
+
+
+
+
+/* Fin d'ajout "class" supplémentaires */
+
+
 body {
     margin: 0;
     padding: 0;
@@ -676,9 +692,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
