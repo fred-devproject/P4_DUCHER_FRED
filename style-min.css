@@ -1,15 +1,20 @@
+/* Ajout de classes suite aux modification */
+
+
 .text-bloc {
     font-size: 1.5em;
     text-justify: auto
 }
-
-.center-link {
-    justify-content: center
+.bloc-list {
+    width:50%;
+    margin:2em auto 0em auto;
 }
 
 ul {
-    padding-inline-start: 0
+    padding-inline-start: 0;
+    list-style: none;
 }
+
 
 .map-responsive {
     overflow: hidden;
@@ -25,6 +30,22 @@ ul {
     width: 100%;
     position: absolute
 }
+
+.social {
+    margin: auto;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+}
+.network-icon {
+    margin:auto;
+}
+.network-icon:hover {
+    fill: #FDFFFF;
+
+}
+
+/* Ajout de classe fin */
 
 body {
     margin: 0;
@@ -539,7 +560,6 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
@@ -723,11 +743,6 @@ a {
     font-weight: 700
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto
-}
-
 h2 {
     font-size: 22px;
     line-height: 1.4em
@@ -764,7 +779,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px
+    margin: auto;
 }
 
 .portfolio-row {
