@@ -6,8 +6,11 @@
     text-justify: auto
 }
 .bloc-list {
-    width:50%;
     margin:2em auto 0em auto;
+}
+.small-title {
+    font-size: 1.1em;
+    font-weight: 300;
 }
 
 ul {
@@ -37,8 +40,10 @@ ul {
     display: flex;
     justify-content: space-around;
 }
+
 .network-icon {
-    margin:auto;
+    display:block;
+    margin:1em auto 0.5em auto;
 }
 .network-icon:hover {
     fill: #FDFFFF;
@@ -781,10 +786,6 @@ h4 {
     margin: auto;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px
-}
 
 .avatar {
     box-shadow: 0 4px 9px rgba(0, 0, 0, .3)
