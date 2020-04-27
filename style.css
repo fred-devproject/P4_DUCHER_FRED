@@ -5,26 +5,17 @@
     font-size: 1.5em;
     text-justify: auto
 }
-.bloc-list {
-    display:flex;
-    margin: auto;
-    flex-direction: column;
-}
+
 .small-title {
     display:block;
     font-size: 1.1em;
-    font-weight: 300;
-    
+    font-weight: 300; 
 }
 
 .text-list {
     display:block;
-    padding-left: 0;
-    
-
+    width:75%;
 }
-
-
 
 .map-responsive {
     overflow: hidden;
