@@ -1,0 +1,8 @@
+#Exclusion de dossiers github
+
+#ignore folder named "dart-sass"
+/.tmp.drivedownload
+
+#ignore folder named "node_modules"
+/audit-seo
+
